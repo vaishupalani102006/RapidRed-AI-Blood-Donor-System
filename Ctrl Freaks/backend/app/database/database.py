@@ -18,7 +18,7 @@ print("ENV EXISTS:", env_path.exists())
 
 load_dotenv(
     dotenv_path=env_path,
-    override=True
+    override=False
 )
 
 
